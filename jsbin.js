@@ -31,4 +31,4 @@ forman.controller('mainCtrl', function($scope, $timeout){
 
 });
 
-console.log{"test 2, ' ' , 1 , ' ' , 2};
+console.log{"test 2, ' ' , 1 , ' ' , 2"};
