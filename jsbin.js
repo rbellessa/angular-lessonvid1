@@ -1,4 +1,6 @@
-foreman.controller('mainCtrl', function($scope, $timeout){
+var forman = angular.module('dm8', []);
+
+forman.controller('mainCtrl', function($scope, $timeout){
 
   $scope.saySomethingPicard = "Beam me up Scotty!";
 

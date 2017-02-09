@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html ng-app='dm8'>
   <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>JS Bin</title>
+    <link href="jsbin.css" rel="stylesheet" />
   </head>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
-    <link href="css/style.css" rel="stylesheet" />
 
-<body ng-controller="mainCtrl">
+  <body ng-controller="mainCtrl">
     <p></p>
 
     <input ng-model="picardsWords"></input>
-       <br/>
-      {{ saySomethingPicard }}
+      <br/> {{ saySomethingPicard }}
 
       <p>
         Picard Says : {{ picardsWords }}
@@ -41,10 +39,8 @@
 
         <button ng-click="btnClicked()">Click Me</button>
 
-
-    <script src="js/app.js"></script>
-
-    <script src="js/mainCtrl.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+  <script src="jsbin.js"></script>
 
 </body>
 </html>
